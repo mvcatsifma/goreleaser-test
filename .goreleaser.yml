@@ -1,5 +1,7 @@
 # This is an example .goreleaser.yml file with some sensible defaults.
 # Make sure to check the documentation at https://goreleaser.com
+env:
+  - GITHUB_TOKEN="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"
 before:
   hooks:
     # You may remove this if you don't use go modules.
